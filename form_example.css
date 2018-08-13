@@ -1,0 +1,209 @@
+/*
+Material contained herein is the property of Glenn Cy Caruso.
+All Rights Reserved.
+*/
+body {
+font-family: 'Open Sans', sans-serif;
+color: #000;
+max-width: 1024px;
+margin: auto;
+}
+input:focus {
+outline: none;
+}
+.xmpl-inf-frm-butn-cncl:focus {
+outline: none;
+}
+.xmpl-cler {
+clear: both;
+height: 0;
+}
+.xmpl-hdr-rctngl {
+background-color: #f6fbfa;
+font-family: 'Open Sans', sans-serif;
+font-size: 1.4em;
+padding: 20px;
+}
+.xmpl-hdr-rule {
+background-color: #d3f4ec;
+height: 10px;
+}
+.xmpl-hdr-rctngl-txt {
+font-size: .65em;
+line-height: 1.4em;
+margin-top: 10px;
+}
+.xmpl-inf-frm-wrapper {
+padding: 10px;
+background: #f2d5f4;
+background: -moz-linear-gradient(0deg, #f2d5f4, #d3f4ec);
+background: -o-linear-gradient(0deg, #f2d5f4, #d3f4ec);
+background: -webkit-linear-gradient(0deg, #f2d5f4, #d3f4ec);
+background: linear-gradient(180deg, #f2d5f4, #d3f4ec);
+border: 0 solid transparent;
+border-radius: 10px;
+margin-left: 25%;
+margin-right: 25%;
+margin-top: 25px;
+}
+.xmpl-inf-frm-rctngl {
+padding: 0;
+border: 10px solid transparent;
+background: white;
+border-radius: 10px;
+text-align: center;
+}
+.xmpl-inf-frm-txt {
+background-color: #fff;
+text-align: left;
+font-size: 1.2em;
+margin-top: 3px;
+margin-bottom: 12px;
+}
+.xmpl-inf-frm-inpt-elem {
+margin-bottom: 10px;
+border: 1px solid #d1b2d3;
+border-radius: 4px;
+width: 80%;
+padding: 10px 10px 12px 10px;
+}
+.xmpl-inf-frm-inpt-elem:focus {
+border: 2px solid #cf9cd2;
+padding: 9px 9px 11px 9px;
+}
+.xmpl-inf-frm-labl-wrap {
+height: 24px;
+width: 80%;
+margin-left: 8%;
+padding-left: 2px;
+padding-right: 2px;
+float: left;
+}
+.xmpl-inf-frm-elem-labl {
+font-size: .8em;
+color: #ad65b2;
+width: 80%;
+padding-left: 1%;
+padding-top: 6px;
+padding-bottom: 5px;
+float: left;
+text-align: left;
+display: none;
+}
+.xmpl-inf-frm-conf-mssg {
+display: none;
+background-color: #edf6f4;
+width: 80%;
+margin: auto;
+border-radius: 4px;
+text-align: center;
+font-size: .7em;
+border: 1px solid #d3f4ec;
+padding: 5px 10px 5px 10px;
+}
+.xmpl-inf-frm-butn {
+background-color: #ebcfed;
+border: none;
+color: #000;
+width: 85%;
+padding: 15px 0;
+text-decoration: none;
+border-radius: 4px;
+cursor: pointer;
+font-family: 'Open Sans', sans-serif;
+font-size: 1em;
+text-align: center;
+}
+.xmpl-inf-frm-butn:hover {
+-webkit-box-shadow:0 0 10px #f2d5f4;
+-moz-box-shadow: 0 0 10px #f2d5f4;
+box-shadow:0 0 10px #f2d5f4;
+background-color: #b99ebb;
+color: #fff;
+}
+.xmpl-inf-frm-butn-cncl {
+display: block;
+width: 40%;
+float: left;
+margin-left: 7.5%;
+margin-top: 10px;
+margin-bottom: 8px;
+text-align: center;
+padding: 18px 0;
+}
+.xmpl-inf-frm-butn-sav {
+display: block;
+width: 40%;
+float: left;
+margin-left: 5%;
+margin-top: 10px;
+margin-bottom: 8px;
+text-align: center;
+}
+.vald-txt-cler {
+clear: both;
+height: 0;
+}
+.xmpl-inf-frm-conf-mssg-wrapper {
+height: 24px;
+margin-bottom: 1px; 
+}
+.no-vis {
+position: absolute;
+overflow: hidden;
+border: 0;
+height: 1px;
+width: 1px;
+margin: -1px;
+padding: 0;
+clip: rect(0, 0, 0, 0);
+}
+.xmpl-inf-frm-ftr-txt {
+width: 80%;
+margin: auto;
+padding: 16px;
+text-align: center;
+color: #666;
+font-size: .8em;
+line-height: 1.3em;
+}
+@media (max-width: 740px) {
+.xmpl-inf-frm-wrapper {
+margin-left: 16%;
+margin-right: 16%;
+}
+}
+@media (max-width: 450px) {
+.xmpl-hdr-rctngl {
+text-align: center;
+padding: 10px 20px 10px 20px;
+}
+.xmpl-inf-frm-wrapper {
+margin-left: 5%;
+margin-right: 5%;
+margin-top: 12px;
+}
+.xmpl-inf-frm-txt {
+font-size: 1.1em;
+}
+.xmpl-inf-frm-inpt-elem {
+width: 86%;
+}
+.xmpl-inf-frm-butn {
+width: 87%;
+}
+.xmpl-inf-frm-butn-cncl {
+width: 89%;
+margin-left: 5%;
+float: none;
+}
+.xmpl-inf-frm-butn-sav {
+width: 89%;
+margin-left: 5%;
+margin-top: 16px;
+float: none;
+}
+.xmpl-inf-frm-ftr-txt {
+padding-top: 10px;
+}
+}

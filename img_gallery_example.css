@@ -1,0 +1,94 @@
+/*
+Material contained herein is the property of Glenn Cy Caruso.
+All Rights Reserved.
+*/
+body {
+font-family: 'Open Sans', sans-serif;
+color: #fff;
+background-color: #000;
+max-width: 1024px;
+margin: auto;
+}
+.xmpl-hdr-rect {
+font-family: 'Open Sans', sans-serif;
+font-size: 1.4em;
+padding: 20px;
+}      
+.xmpl-hdr-rect-txt {
+font-size: .65em;
+line-height: 1.4em;
+margin-top: 10px;
+color: #fff;
+}
+.xmpl-hdr-rule {
+height: 30px;
+background-color: #95c7bb;
+background: -moz-linear-gradient(0deg, #89a39d, #badfd6);
+background: -o-linear-gradient(0deg, #89a39d, #badfd6);
+background: -webkit-linear-gradient(0deg, #89a39d, #badfd6);
+background: linear-gradient(180deg, #89a39d, #badfd6);
+}
+.xmpl-img-gal-wrap {
+width: 40%;
+margin: auto;
+border: 2px solid #a8c9c1;
+margin-top: 50px;
+overflow: hidden;
+}
+#xmpl-img-gal-inner {
+width: 500%;
+}       
+.xmpl-piktr {
+width: 20%;
+float: left;
+}        
+.xmpl-piktr img {
+float: right;
+width: 100%;
+}
+.xmpl-slidr-butn-wrap {
+text-align: center;
+padding: 30px;
+}
+.xmpl-slidr-restrt-butn {
+background-color: #95c7bb;
+background: -moz-linear-gradient(0deg, #89a39d, #badfd6);
+background: -o-linear-gradient(0deg, #89a39d, #badfd6);
+background: -webkit-linear-gradient(0deg, #89a39d, #badfd6);
+background: linear-gradient(180deg, #89a39d, #badfd6);
+padding: 12px 30px 12px 30px;
+border: 1px solid #608f84;
+border-radius: 4px;
+font-family: 'Open Sans', sans-serif;
+font-size: 1em;
+}
+.xmpl-slidr-restrt-butn:hover {
+background-color: #95c7bb;
+-webkit-box-shadow:0 0 8px #9fd6c9;
+-moz-box-shadow: 0 0 8px #9fd6c9;
+box-shadow:0 0 8px #9fd6c9;
+cursor: pointer;
+}
+.xmpl-slidr-restrt-butn:focus {
+outline: none;
+}
+@media (max-width: 860px) {
+.xmpl-img-gal-wrap {
+width: 50%;
+}
+}
+@media (max-width: 680px) {
+.xmpl-img-gal-wrap {
+width: 65%;
+}
+}
+@media (max-width: 460px) {
+.xmpl-img-gal-wrap {
+width: 76%;
+}
+}
+@media (max-width: 350px) {
+.xmpl-img-gal-wrap {
+width: 80%;
+}
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--
+    Material contained herein is the property of Glenn Cy Caruso.
+    All Rights Reserved.
+    -->
+    <title>Form Example</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="form_example.css">
+    <meta charset="UTF-8">
+    <meta content="initial-scale=1.0" name="viewport">
+</head>
+
+<body>
+    <div class="xmpl-hdr-rctngl">
+        <h1>Web Form Example</h1>
+        <div class="xmpl-hdr-rctngl-txt">
+            HTML, CSS, JavaScript, jQuery, Validation, Accessibility, Responsive, UI/UX Design
+        </div>
+    </div>
+    <div class="xmpl-hdr-rule">
+        &nbsp;
+    </div>
+    <main class="xmpl-inf-frm-wrapper">
+        <div class="xmpl-inf-frm-rctngl">
+            <div class="xmpl-inf-frm-txt">
+                Sign Up Info
+            </div>
+            <form onsubmit="return valXmplFrm()">
+                <div class="xmpl-inf-frm-labl-wrap">
+                    <div class="xmpl-inf-frm-elem-labl" id="xmpl-inf-frm-nam-labl">&nbsp;</div>
+                </div>
+                <div class="vald-txt-cler">&nbsp;</div>
+                <label for="xmpl-inf-frm-nam" class="no-vis">Name</label>
+                <input type="text" maxlength="25" tabindex="1" class="xmpl-inf-frm-inpt-elem" id="xmpl-inf-frm-nam" placeholder="Name">
+
+                <div class="xmpl-inf-frm-labl-wrap">
+                    <div class="xmpl-inf-frm-elem-labl" id="xmpl-inf-frm-phon-numbr-labl">&nbsp;</div>
+                </div>
+                <div class="vald-txt-cler">&nbsp;</div>
+                <label for="xmpl-inf-frm-phon-numbr" class="no-vis">Phone</label>
+                <input type="text" maxlength="11" tabindex="2" class="xmpl-inf-frm-inpt-elem" id="xmpl-inf-frm-phon-numbr" placeholder="Phone">
+
+                <div class="xmpl-inf-frm-labl-wrap">
+                    <div class="xmpl-inf-frm-elem-labl" id="xmpl-inf-frm-emaal-labl">&nbsp;</div>
+                </div>
+                <div class="vald-txt-cler">&nbsp;</div>
+                <label for="xmpl-inf-frm-emaal" class="no-vis">Email</label>
+                <input type="text" maxlength="255" tabindex="3" class="xmpl-inf-frm-inpt-elem" id="xmpl-inf-frm-emaal" placeholder="Email">
+                <div class="xmpl-inf-frm-conf-mssg-wrapper">
+                    <div class="xmpl-inf-frm-conf-mssg" id="xmpl-inf-frm-conf-mssg">
+                        Save Successful
+                    </div>
+                </div>
+                <a class="xmpl-inf-frm-butn xmpl-inf-frm-butn-cncl" id="clrBtn" tabindex="4">Clear</a>
+                <label for="xmpl-inf-frm-sav-butn" class="no-vis">Save</label>
+                <input type="submit" tabindex="5" class="xmpl-inf-frm-butn xmpl-inf-frm-butn-sav" id="xmpl-inf-frm-sav-butn" value="Save">
+                <div class="xmpl-cler">&nbsp;</div>
+            </form>
+        </div>
+    </main>
+    <div class="xmpl-inf-frm-ftr-txt">
+        This form does not save entries.
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="form_example.js"></script>
+</body>
+
+</html>
