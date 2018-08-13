@@ -186,8 +186,8 @@ margin-top: 12px;
 .xmpl-inf-frm-txt {
 font-size: 1.1em;
 }
-.xmpl-inf-frm-inpt-elem {
-width: 86%;
+.xmpl-inf-frm-elem-labl {
+padding-left: 0;
 }
 .xmpl-inf-frm-butn {
 width: 87%;
